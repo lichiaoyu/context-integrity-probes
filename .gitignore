@@ -1,0 +1,26 @@
+# Large or generated data
+data/*
+!data/README.md
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors
+*.tar.gz
+*.zip
+*.log
+logs/
+outputs/
+results/
+# Local environments and secrets
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.pem
+*private*key*
+# Unreviewed historical scripts
+archive/
